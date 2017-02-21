@@ -3,5 +3,7 @@
 		text-align: center;
 		color: white;
 		background: url("/background.jpeg");
+		background-size: cover; 
+      	background-position: center;
 	}
 </style>
