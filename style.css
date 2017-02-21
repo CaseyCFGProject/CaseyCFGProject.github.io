@@ -1,1 +1,8 @@
-style.css
+<style>
+	header {
+		text-align: center;
+		color: white;
+	}
+	header {
+		background: url("/background.jpeg");
+	}
