@@ -5,22 +5,25 @@
 	}
 	a {
 		table-layout: fixed;
-		margin; 
-		width; 330px:
 	}
 	#container {
 		text-align: center;
 		text-decoration-color: white
 	}
 	#gallery .img {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+	    width: 100%;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    margin-left: 0px;
+	    margin-right: 0px;
 	}
 	img {
     vertical-align: middle;
-
 	}
+	.img-circle {
+		width: 250px;
+		height: 250px;
+	}
+
+
 </style>
