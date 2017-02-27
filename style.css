@@ -3,27 +3,45 @@
 		background-image: : cover; 
       	background-position: center;
 	}
+	div{
+	  height: 400px;
+	  background-size: cover;
+	  position: relative;
+	  margin: 40px 0 0 0;
+	  border-radius: 12px;
+	}
 	a {
 		table-layout: fixed;
 	}
-	#container {
-		text-align: center;
-		text-decoration-color: white
+	body{
+		max-width: 600px;
 	}
-	#gallery .img {
-	    width: 100%;
-	    padding-left: 0px;
-	    padding-right: 0px;
-	    margin-left: 0px;
-	    margin-right: 0px;
+	.one {
+  		background: url("file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Kirkcaldy.jpg");
+  		margin: 0 auto;
 	}
-	img {
-    vertical-align: middle;
+	.two {
+  		background: url("file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Kirkcaldy.jpg");
 	}
-	.img-circle {
-		width: 250px;
-		height: 250px;
-	}
+	.three {
+  		background: url("file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Leven.jpg");
+  	}
+  	.four {
+  		background: url(""img-circle" scr="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Elie.jpg"");
+  	}
+  	.five {
+  		background: url(""img-circle" scr="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Kingsbarn.jpg"");
+  	}
+  	.six {
+  		background: url("file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/St%20Andrews.jpg");
+  	}
+  	.seven {
+  		background: url("file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Wormit%20Bay.jpg");
+  	}
+  	.eight {
+  		background: url("file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/Newburgh.jpg");
+  	}
+
 
 
 </style>
