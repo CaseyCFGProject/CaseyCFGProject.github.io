@@ -1,9 +1,6 @@
 <style>
 	header {
-		text-align: center;
-		color: white;
-		background: url("/background.jpeg");
-		background-size: cover; 
+		background-image: : cover; 
       	background-position: center;
 	}
 	a {
@@ -11,7 +8,19 @@
 		margin; 
 		width; 330px:
 	}
-	div container {
+	#container {
 		text-align: center;
+		text-decoration-color: white
+	}
+	#gallery .img {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	}
+	img {
+    vertical-align: middle;
+
 	}
 </style>
