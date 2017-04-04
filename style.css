@@ -3,12 +3,6 @@
 				text-align: center;
 				color: white;
 			}
-			img {
-				size: cover;
-				vertical-align: middle;
-				width: 200px;
-				height: 200px;
-			}
 			body {
 		      text-align: center;
 		      background-color: #232323;
@@ -17,48 +11,4 @@
 		      font-family: Big Caslon;
 		      color: white;
 		    }
-		    div {
-		    	display: block;
-		    }
-		    a {
-		    	background-color: transparent;
-		    }
-		    #gallery {
-		    	height: 100%;
-			    padding-bottom: 30px;
-			    margin-bottom: 30px;
-		    }
-		    #gallery .img {
-		    	width: 100%;
-			    padding-left: 0px;
-			    padding-right: 0px;
-			    margin-left: 0px;
-			    margin-right: 0px;
-		    }
 
-<!-- Header -->
-		   .container {
-				width: 960px;
-				margin: 0 auto;
-			}
-			.header {
-				background: url(file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/background.jpg);
-				background-image: cover;
-				height: 200px;
-				top: 0;
-			}
-			a {
-				text-decoration: none;
-				color: white;
-				font-size: 10px;
-			}
-			li{
-				list-style: none;
-				float: left;
-				margin-left: 15px;
-				padding-top:15px;
-			}
-			.nav {
-				float:right;
-			}
-				 
