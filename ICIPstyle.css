@@ -5,7 +5,19 @@
 			}
 			h1{
 				text-align: center;
+				padding-top: 40px;
+        		color: white;
+        		font-size: 50px;
 			}
+			article{
+		        line-height: 2.5em;
+		        color: white;
+		        padding: 20px 30px 20px 30px;
+		        flex: 1;
+		        background: black;
+		        opacity: 0.7;
+		        text-align: center;
+		      }
 			.img {
 				size: cover;
 				vertical-align: middle;
@@ -20,49 +32,34 @@
 		      font-family: Big Caslon;
 		      color: white;
 		    }
-
 		    .nav{
 		    	font-size: 150%;
 		    }
 
 			.nav ul {
-						list-style-type: none;
-						margin: 0 auto;
-						padding: 0 auto;
-						overflow: hidden;
-						background-color: white; 
+				list-style-type: none;
+				margin: 0 auto;
+				padding: 0 auto;
+				overflow: hidden;
+				background-color: white; 
 			}
 			.nav li{
-						float: left;
+				float: left;
 			}
 			.nav li a {
-						display: block;
-						color: black;
-						text-align: center;
-						padding: 6px 16px 1px 10px;
-						text-decoration: none;
+				display: block;
+				color: black;
+				text-align: center;
+				padding: 6px 16px 1px 10px;
+				text-decoration: none;
 			}
 			.nav li a:hover {
 				background-color: gray;
 			}
-			h1{
-				padding-top: 40px;
-        		color: white;
-        		font-size: 50px;
-			}
 			.location{
 				padding: 20px 10px 20px 10px;
 			}
-			article{
-		        line-height: 2.5em;
-		        color: white;
-		        padding: 20px 30px 20px 30px;
-		        flex: 1;
-		        background: black;
-		        opacity: 0.7;
-		        text-align: center;
-		      }
-		     ol {
+		    ol {
 		     	list-style-type: none;
 		     	padding: 10px 10px 1px 1px;
 		     	line-height: 2em;
@@ -71,8 +68,6 @@
 		     .content {
 		     	text-align: center;
 		     }
-			
-
 			div .location: hover {
 				border: 1px;
 			}

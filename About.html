@@ -1,1 +1,56 @@
-About.html
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Fife Coastal Path</title>
+		<link href="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/ICIPstyle.css" type= "text/css" rel="stylesheet">
+	
+	
+	</head>
+
+	<body>
+
+<!-- NavBar -->
+				<div class="nav">	
+					<ul>
+						<li><a class="active" href="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/ICIP%20homepage.html">Home</a></li>
+						<li><a href="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/About.html">About</a></li>
+						<li><a href="#">Gallery</a></li>
+					</ul>
+				</div>
+<!-- xx -->
+
+<h1>Welcome to Fife</h1>
+<h2>Come and Explore</h2>
+
+<p> There is so much for you to discover on the Fife Coastal Path. Stretching for 117 miles from the Firth of Forth in the south, to the Firth of Tay in the north, the route offers an unrivalled walking experience.</p>
+
+<p>The route offers a range of walking experiences from easy and level, to wild and demanding. Whether completed in smaller sections or as a long distance route, there is definitely something for everyone. </p>
+ 
+<p>From the cosmopolitan atmosphere of St.Andrews to the former coal mining towns of central Fife. The small fishing villages of the East Neuk to the bustling industrial areas of the west, rugged cliffs, award winning beaches, internationally important estuaries and wildlife reserves, walking the Fife Coastal Path is an experience not to be missed.</p>
+
+<p>Whether you are looking for peace and tranquillity or action and adventure the Fife Coastal Path can offer you this and much, much more. </p>
+
+<p>The Fife Coastal Path is one of Scotland's Great Trails and is part of Fife's Core Path network  which helps to increase access to green space and establsih links between neighbouring communities.</p>
+
+
+<div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+	<script>
+	function myMap() {
+	var mapOptions = {
+	    center: new google.maps.LatLng(51.5, -0.12),
+	    zoom: 10,
+	    mapTypeId: google.maps.MapTypeId.HYBRID
+	}
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+
+</body>
+</html>
