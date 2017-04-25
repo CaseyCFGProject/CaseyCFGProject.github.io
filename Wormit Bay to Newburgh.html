@@ -1,37 +1,105 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
+  <head>
+    <style>
+      body {
+        background-image: url("Warmit Bay to Newburgh.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 1;
+        margin-bottom: 50px;
+        padding: 0px 0px 30px 0px;
+      }
+      div{
+        display: block;
+      }
+      h2{
+        font-size: 40px;
+        color: black;
+        text-align: center;
+      }
+      p{
+        text-align:center;
+        padding: 50px 10px 50px 10px;
+        margin-top: 0em;
+      }
+      .content{
+        flex: 1;
+        background: white;
+        opacity: 0.9;
+        color: black;
+        padding:20px 30px 80px 30px;
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      .picture1 {
+        width: 250px;
+        background: url("Newburgh Arch.jpg") no-repeat;
+        background-size:cover;
+        color:black;
+        padding: 100px 180px 100px 180px;
+        margin: 50px 0px 50px 0px;
+      }
+      .picture2 {
+        width: 250px;
+        background: url("Laing Museum.jpg") no-repeat;
+        background-size:cover;
+        color:black;
+        padding: 100px 180px 100px 180px;
+        margin: 50px 0px 50px 0px;
+      }
+      .picture3 {
+        width: 250px;
+        background: url("Balmerino Abbey.jpg") no-repeat;
+        background-size:cover;
+        color:black;
+        padding: 100px 180px 100px 180px;
+        margin: 50px 0px 50px 0px;
+      }
+      .parent{
+        display: flex;
+        width:100%;
+        justify-content: center;
+      }
+      .button{
+        float: left;
+      }
+      li{
+        text-decoration: none;
+      }
+
+    </style>
 
 
+    <title>Leuchars to Wormit Bay</title>
+    <link href="ICIPstyle.css" type= "text/css" rel="stylesheet">
+    
+  </head>
 
-		<title>Wormit Bay to Newburgh</title>
-		<link href="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/ICIPstyle.css" type= "text/css" rel="stylesheet">
-	
-	</head>
+  <body>
 
-	<body>
-  
-<!-- NavBar -->
+  <!-- NavBar -->
         <div class="nav"> 
           <ul>
-            <li><a class="active" href="file:///Users/juliecarty/Documents/coding_course/CaseyCFGProject.github.io/ICIP%20homepage.html">Home</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a class="active" href="ICIP homepage.html">Home</a></li>
+            <li><a href="ICIPabout.html">About</a></li>
+            <li><a href="ICIPGallery.html">Gallery</a></li>
           </ul>
         </div>
 <!-- xx -->
 
-		<div id=container>
-		
+    <div id=container>
+    
 <!-- Back Button -->
    <div>
     <a href="ICIP homepage.html" id="back">&#8592;</a>
 
     <script>
-	function goBack() {
+  function goBack() {
     window.history.back();
-	}
-	</script>
+  }
+  </script>
     </div>
 
 
@@ -40,18 +108,17 @@
 
 
 <!-- Content -->
-  <div class="transbox">
-    <p>The Kincardine to Limekilns section is a curious blend of modern industry, cultural heritage, valued nature reserve and iconic bridges.  Stretching for 11 miles or 17.5km, allow 4 - 5 hours to complete the whole route.
-
-	When following the Coastal Path keep an eye out for our waymarker on various road and cycle paths, to keep you on the right track.
-
-	Begin at Kincardine Bridge and head east following cycle path route 76. 
-
-	The path joins up with the railway line as you near the historic village of Culross and from here you skirt the edge of Torry Bay Local Nature Reserve with its rare salt marsh plant communities.
-
-	Continue on to Limekilns and Charlestown, taking a detour to the old kilns if you have time, or stroll along the promenade to the quaint harbour.
-</p>
-  </div>
+  <div>
+  <article>
+    The Kincardine to Limekilns section is a curious blend of modern industry, cultural heritage, nature reserves and iconic bridges. The path stretches for 11 miles or 17.5km. When following the Coastal Path keep an eye out for the 'Fife Costal Path' waymarker on various road and cycle paths, because it's kinda confusing to stay on the right track. Begin at Kincardine Bridge and head east following cycle path route 76. 
+    <br>
+    <br>
+  	The path joins up with the railway line as you near the historic village of Culross. From here you skirt the edge of Torry Bay Local Nature Reserve with its rare salt marsh plant communities. Continue on to Limekilns and Charlestown> Be sure to take a detour to the old kilns if you have time, or stroll along the promenade to the quaint harbour.
+    <br>
+    <br>
+    <strong>Allow 4 - 5 hours to complete the whole route.</strong>
+</article>
+</div>
 
 
 
@@ -60,29 +127,43 @@
 <div class="parent">
   <div class="content">
     <h2>Architecture</h2>
-    <p>Top sites for this area include: Balmerino Abbey, Creich Castle and Newburgh Arch</p>
+    <h4>Top sites for this area include:</h4>
+    <ol>
+      <li>Balmerino Abbey</li>
+      <li>Creich Castle</li>
+      <li>Newburgh Arch</li>
+    </ol>
     
   </div>
-  <div class="picture2"></div>
+  <div class="picture1"></div>
 </div>
 
 <div class="parent">
   <div class="content">
     <h2>Culture</h2>
-    <p>Top sites for this area include: Laing Museum</p>
+    <h4>Top sites for this area include:</h4>
+    <ol>
+      <li>Laing Museum</li>
+    </ol>
     
   </div>
-  <div class="picture3"></div>
+  <div class="picture2"></div>
 </div>
     
  <div class="parent">
   <div class="content">
     <h2>History & Heritage</h2>
-    <p>Top sites for this area include: Balmerino Abbey and Creich Castle</p>
+    <h4>Top sites for this area include:</h4>
+    <ol>
+      <li>Balmerino Abbey</li>
+      <li>Creich Castle</li>
+    </ol>
     
   </div>
-  <div class="picture4"></div>
+  <div class="picture3"></div>
 </div>
 
 
 </div>
+</body>
+</html>

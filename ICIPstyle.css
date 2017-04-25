@@ -2,6 +2,7 @@
 			header {
 				text-align: center;
 				color: white;
+
 			}
 			h1{
 				text-align: center;
@@ -12,12 +13,15 @@
 			article{
 		        line-height: 2.5em;
 		        color: white;
-		        padding: 20px 30px 20px 30px;
+		        padding: 30px 50px 30px 50px;
 		        flex: 1;
 		        background: black;
 		        opacity: 0.7;
 		        text-align: center;
 		      }
+		     strong{
+		     	color: red;
+		     }
 			.img {
 				size: cover;
 				vertical-align: middle;
@@ -26,7 +30,6 @@
 			}
 			.body {
 		      text-align: center;
-		      background-color: #232323;
 		      background-size: cover; 
 		      background-position: center;
 		      font-family: Big Caslon;
@@ -41,7 +44,7 @@
 				margin: 0 auto;
 				padding: 0 auto;
 				overflow: hidden;
-				background-color: white; 
+				 
 			}
 			.nav li{
 				float: left;

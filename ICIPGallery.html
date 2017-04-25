@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Photo Gallery</title>
+		<link href="ICIPstyle.css" type= "text/css" rel="stylesheet">
+
+		<style>
+			img {
+				width: 200px;
+				height: 190px;
+			}
+			th {
+				font-size: 3em;
+				color: black;
+				background-color: white;
+				padding: 20px;
+				
+			}
+			body{
+				font-size: 1em;
+				text-align: center;
+				background-color: grey;
+			}
+			table{
+				background-color: white;
+				width: cover;
+			}
+			td{
+				padding: 25px;
+				font-size: 1.17em;
+				color:black;
+			}
+			.nav{
+				background-color: white;
+			}
+			.brightness {
+				background-color: white;
+				display: inline-block;
+			}
+			.brightness img:hover {
+				opacity: .5;
+				position: relative;
+				top:-25px;
+				left:-35px;
+				width:500px;
+				height:auto;
+				display:block;
+				z-index:999;
+			}
+			#myBtn {
+			    display: none; /* Hidden by default */
+			    position: fixed; /* Fixed/sticky position */
+			    bottom: 20px; /* Place the button at the bottom of the page */
+			    right: 30px; /* Place the button 30px from the right */
+			    z-index: 99; /* Make sure it does not overlap */
+			    border: none; /* Remove borders */
+			    outline: none; /* Remove outline */
+			    background-color: 	#008B8B; /* Set a background color */
+			    color: white; /* Text color */
+			    cursor: pointer; /* Add a mouse pointer on hover */
+			    padding: 15px; /* Some padding */
+			    border-radius: 10px; /* Rounded corners */
+			}
+
+			#myBtn:hover {
+			    background-color: #555; /* Add a dark-grey background on hover */
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+<!-- NavBar -->
+        <div class="nav"> 
+          <ul>
+            <li><a class="active" href="ICIP homepage.html">Home</a></li>
+            <li><a href="ICIPabout.html">About</a></li>
+            <li><a href="ICIPGallery.html">Gallery</a></li>
+          </ul>
+        </div>
+<!-- xx -->
+
+
+<!--Button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("myBtn").style.display = "block";
+	    } else {
+	        document.getElementById("myBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+
+<!-- xx -->
+<div class="body">
+<div class="title">
+		
+		
+		<table align="center">
+			<tr>
+				<th colspan="4">Fife Coastal Path: Photo Gallery</th>
+			</tr>
+			<tr>
+				<td colspan="4">The best way to explore the Kingdom of Fife</td>
+			</tr>
+			<tr>
+				<td colspan="4">Start Your Adventure...</td>
+			</tr>
+
+			<tr class="brightness">
+				<td><img src="PHOTOS/Gallery1.jpg"></td>
+				<td><img src="PHOTOS/DSC_0234.jpg"></td>
+				<td><img src="PHOTOS/DSC_0236.jpg"></td>
+				<td><img src="PHOTOS/DSC_0237.jpg"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/DSC_0238.jpg"></td>
+				<td><img src="PHOTOS/DSC_0240.jpg"></td>
+				<td><img src="PHOTOS/DSC_0241.jpg"></td>
+				<td><img src="PHOTOS/DSC_0242.jpg"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/DSC_0243.jpg"></td>
+				<td><img src="PHOTOS/DSC_0244.jpg"></td>
+				<td><img src="PHOTOS/DSC_0245.jpg"></td>
+				<td><img src="PHOTOS/DSC_0247.jpg"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/DSC_0248.jpg"></td>
+				<td><img src="PHOTOS/DSC_0249.jpg"></td>
+				<td><img src="PHOTOS/FullSizeRender 5.jpg"></td>
+				<td><img src="PHOTOS/FullSizeRender 6.jpg"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/FullSizeRender 7.jpg"></td>
+				<td><img src="PHOTOS/FullSizeRender 8.jpg"></td>
+				<td><img src="PHOTOS/FullSizeRender 10.jpg"></td>
+				<td><img src="PHOTOS/FullSizeRender-1.jpg"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/FullSizeRender-3.jpg"></td>
+				<td><img src="PHOTOS/IMG_1862.JPG"></td>
+				<td><img src="PHOTOS/IMG_1863.JPG"></td>
+				<td><img src="PHOTOS/IMG_1864.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_1865.JPG"></td>
+				<td><img src="PHOTOS/IMG_1866.JPG"></td>
+				<td><img src="PHOTOS/IMG_1963.JPG"></td>
+				<td><img src="PHOTOS/IMG_1964.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_1965.JPG"></td>
+				<td><img src="PHOTOS/IMG_1966.JPG"></td>
+				<td><img src="PHOTOS/IMG_1967.JPG"></td>
+				<td><img src="PHOTOS/IMG_3104.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3105.JPG"></td>
+				<td><img src="PHOTOS/IMG_3106.JPG"></td>
+				<td><img src="PHOTOS/IMG_3107.JPG"></td>
+				<td><img src="PHOTOS/IMG_3108.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3109.JPG"></td>
+				<td><img src="PHOTOS/IMG_3110.JPG"></td>
+				<td><img src="PHOTOS/IMG_3111.JPG"></td>
+				<td><img src="PHOTOS/IMG_3112.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3113.JPG"></td>
+				<td><img src="PHOTOS/IMG_3114.JPG"></td>
+				<td><img src="PHOTOS/IMG_3115.JPG"></td>
+				<td><img src="PHOTOS/IMG_3116.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3117.JPG"></td>
+				<td><img src="PHOTOS/IMG_3118.JPG"></td>
+				<td><img src="PHOTOS/IMG_3119.JPG"></td>
+				<td><img src="PHOTOS/IMG_3120.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3121.JPG"></td>
+				<td><img src="PHOTOS/IMG_3122.JPG"></td>
+				<td><img src="PHOTOS/IMG_3123.JPG"></td>
+				<td><img src="PHOTOS/IMG_3124.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3125.JPG"></td>
+				<td><img src="PHOTOS/IMG_3126.JPG"></td>
+				<td><img src="PHOTOS/IMG_3127.JPG"></td>
+				<td><img src="PHOTOS/IMG_3128.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3129.JPG"></td>
+				<td><img src="PHOTOS/IMG_3130.JPG"></td>
+				<td><img src="PHOTOS/IMG_3131.JPG"></td>
+				<td><img src="PHOTOS/IMG_3132.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3133.JPG"></td>
+				<td><img src="PHOTOS/IMG_3134.JPG"></td>
+				<td><img src="PHOTOS/IMG_3135.JPG"></td>
+				<td><img src="PHOTOS/IMG_3136.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3137.JPG"></td>
+				<td><img src="PHOTOS/IMG_3138.JPG"></td>
+				<td><img src="PHOTOS/IMG_3139.JPG"></td>
+				<td><img src="PHOTOS/IMG_3140.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3141.JPG"></td>
+				<td><img src="PHOTOS/IMG_3142.JPG"></td>
+				<td><img src="PHOTOS/IMG_3143.JPG"></td>
+				<td><img src="PHOTOS/IMG_3144.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3145.JPG"></td>
+				<td><img src="PHOTOS/IMG_3146.JPG"></td>
+				<td><img src="PHOTOS/IMG_3147.JPG"></td>
+				<td><img src="PHOTOS/IMG_3243.JPG"></td>
+			</tr>
+			<tr class="brightness">
+				<td><img src="PHOTOS/IMG_3772.JPG"></td>
+				<td><img src="PHOTOS/IMG_9385.JPG"></td>
+			</tr>
+
+
+		</table>
+		</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
